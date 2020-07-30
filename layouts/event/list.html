@@ -9,6 +9,8 @@
       <div class="col-lg-4 col-sm-6 mb-5">
         {{ .Render "event" }}
       </div>
+      {{ else }}
+      <p>{{ i18n "no_events_found" }}</p>
       {{ end }}
     </div>
   </div>
