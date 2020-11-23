@@ -29,6 +29,20 @@ ul {
   margin: 0px;
 }
 
+.col-12 {
+  a {
+    text-decoration: underline;
+  }
+  ul,
+  ol {
+    list-style-image: url(/images/asterisk.png);
+    img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
 img {
   vertical-align: middle;
   border: 0;
