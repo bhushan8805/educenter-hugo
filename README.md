@@ -69,7 +69,7 @@ $ hugo server --themesDir ../..
 
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for the educenter Template. Please Search [existing issues](https://github.com/themefisher/educenter-hugo/issues). It’s possible someone has already reported the same problem.
+We use GitHub Issues as the official bug tracker for the educenter Template. Please Search [existing issues](https://github.com/themefisher/educenter-hugo/issues). It's possible someone has already reported the same problem.
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/educenter-hugo/issues)
 
 ## Technical Support or Questions (Paid)
