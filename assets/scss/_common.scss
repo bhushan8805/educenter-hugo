@@ -310,6 +310,8 @@ textarea.form-control{
 .pagination {
   justify-content: center;
   .page-item {
+    text-decoration: none;
+    list-style-image: none;
     margin: 0 10px;
 
     &.active {
@@ -326,6 +328,7 @@ textarea.form-control{
     }
 
     .page-link {
+      text-decoration: none;
       color: $text-color;
     }
   }
