@@ -33,12 +33,33 @@ ul {
   a {
     text-decoration: underline;
   }
-  ul,
-  ol {
-    list-style-image: url(/images/asterisk.png);
+  
+  ul {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     img {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 15px;
+      list-style-type: none;
+
+      &::before {
+        position: absolute;
+        content: "\e65d";
+        font-family: $icon-font;
+        font-size: 14px;
+        left: 0;
+        top: 1px;
+        color: $primary-color;
+        transition: .3s ease;
+      }
     }
   }
 }
@@ -311,7 +332,11 @@ textarea.form-control{
   justify-content: center;
   .page-item {
     text-decoration: none;
-    list-style-image: none;
+    
+    &::before {
+      content: none;
+    }
+
     margin: 0 10px;
 
     &.active {
